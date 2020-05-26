@@ -1,0 +1,12 @@
+.aside .logo a::before{
+    border-top: 4px solid #00B2EE;
+    border-left: 4px solid #00B2EE;
+}
+.aside .logo a::after{
+    border-bottom: 4px solid #00B2EE;
+    border-right: 4px solid #00B2EE;
+}
+
+.aside .nav li a:hover{
+    color: #00B2EE;
+}
