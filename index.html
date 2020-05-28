@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
-  <title>Personal Portfolio Template</title>
+  <title>Portfólio Pessoal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Arquivos de css -->
@@ -9,23 +9,332 @@
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
 </head>
 <body>
+<!--Preloader-->
+  <div class="preloader">
+      <div class="loader">
 
+      </div>
+  </div>
+<!--Fim do Preloader-->
 <!--Main Container-->
   <div class="main-container">
+
     <!-- Aside -->
     <div class="aside">
-      Aside
+      <!--Logo-->
+      <div div class="logo">
+        <a href="#">Larissa</a>
+      </div>
+      <!--Nav Toggler Btn-->
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <!--Fim do Nav Toggler Btn-->
+      <!--Nav-->
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>Sobre</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Serviços</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contato</a></li>
+      </ul>
+      <!--Copyright-->
+      <div class="copyright-text">
+        &copy; 2020 Projeto Página Pessoal
+      </div>
     </div>
     <!--Fim da aside-->
-  </div>
-  <!--Main Conteúdo-->
+  <!--Main Content-->
   <div class="main-content">
-    <section class=""> 
 
+    <!--Sessão home-->
+    <section class="home section active" id="home"> 
+      <div class="container">
+        <div class="intro">
+          <img src="images/Tela inicial 2.jpg" alt="perfil" class="shadow-dark">
+          <h1>Portfólio</h1>
+          <p>Uma estudante de Sistemas de informação</p>
+          <div class="social-links">
+            <a href="https://github.com/larissadantier"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/larissa.dantier/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/larissa-dantier-858b1884/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/larissa.dantier/"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
     </section>
-    <!--Fim do Main Conteúdo-->
+    <!--Fim da Sessão home-->
+
+    <!--Sessão About-->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-content">
+            <div class="row">
+              <div class="about-text padd-15">
+                <h3>Olá, eu sou <span>Larissa Ruthyle</span></h3>
+                <p>Sou uma estudante de Sistemas de informação e 
+                  estou no início do meu curso, passo o
+                  o meu tempo me dedicando aos conhecimentos
+                  e habilidades através de cursos da Udemy com 
+                  foco em linguagens de front-end.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="personal-info padd-15">
+                <div class="row">
+                  <div class="info-item padd-15">
+                    <p>Aniversário : <span>24/07/2001</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Idade : <span>18</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Email : <span>larissa_dantier@hotmail.com</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Celular : <span>(22) 99759-9571</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Cidade : <span>Vila Velha</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Freelancer : <span>Indisponível</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="buttons padd-15">
+                    <a href="#" class="btn">Download CV</a>
+                    <a href="#contact" data-section-index="1" class="btn hire-me">Contrate-me</a>
+                  </div>
+                </div>
+              </div>
+              <div class="skills padd-15">
+                <div class="row">
+                  <div class="skill-item padd-15">
+                    <h5>HTML</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width:50%"></div>
+                      <div class="skill-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>CSS</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width:45%"></div>
+                      <div class="skill-percent">45%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>JavaScript</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width:5%"></div>
+                      <div class="skill-percent">5%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="education padd-15">
+                <h3 class="title">Educação</h3>
+                <div class="row">
+                  <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!--Inicio da timeline item-->
+                    <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h6 class="timeline-date">
+                      <i class="fa fa-calendar"></i> 2020-2024
+                    </h6>
+                    <h4 class="timeline-title">Universidade Vila Velha - UVV</h4>
+                    <p class="timeline-text">Cursando Sistemas de informação (1° período)</p>
+                  </div>
+                  <!--Fim da timeline item-->
+                  <!--Inicio da timeline item-->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h6 class="timeline-date">
+                      <i class="fa fa-calendar"></i> 2006-2019
+                    </h6>
+                    <h4 class="timeline-title">Instituto Renne de Ensino</h4>
+                    <p class="timeline-text">Concluído Ensino Médio</p>
+                  </div>
+                  <!--Fim da timeline item-->
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="experience padd-15">
+                <h3 class="title">Experiência</h3>
+                <div class="row">
+                  <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!--Inicio da timeline item-->
+                    <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h6 class="timeline-date">
+                      <i class="fa fa-calendar"></i> 2020
+                    </h6>
+                    <h4 class="timeline-title">Frontend Developer</h4>
+                    <p class="timeline-text"> Sem experiência</p>
+                  </div>
+                  <!--Fim da timeline item-->
+                  <!--Inicio da timeline item-->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h6 class="timeline-date">
+                      <i class="fa fa-calendar"></i> 2020
+                    </h6>
+                    <h4 class="timeline-title">Backend Developer</h4>
+                    <p class="timeline-text">Sem experiência</p>
+                  </div>
+                  <!--Fim da timeline item-->
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--Sessão Section-->
+    <section class="service section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Serviços</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!--Sessão item-->
+          <div class="service-item padd-15">
+            <div class="service-item-inner"> 
+              <div class="icon"><i class="fa fa-laptop"></i></div>
+              <h4>Web Design</h4>
+              <p></p>
+            </div>
+          </div>
+          <!--Fim da Sessão item-->
+          <!--Sessão item-->
+          <div class="service-item padd-15">
+            <div class="service-item-inner"> 
+              <div class="icon"><i class="fa fa-code"></i></div>
+              <h4>Web Development</h4>
+              <p></p>
+            </div>
+          </div>
+          <!--Fim da Sessão item-->
+          <!--Sessão item-->
+          <div class="service-item padd-15">
+            <div class="service-item-inner"> 
+              <div class="icon"><i class="fa fa-rocket"></i></div>
+              <h4>Seo Optimization</h4>
+              <p></p>
+            </div>
+          </div>
+          <!--Fim da Sessão item-->
+          <!--Sessão item-->
+          <div class="service-item padd-15">
+            <div class="service-item-inner"> 
+              <div class="icon"><i class="fa fa-paint-brush"></i></div>
+              <h4>Logo Design</h4>
+              <p></p>
+            </div>
+          </div>
+          <!--Fim da Sessão item-->
+        </div>
+      </div>
+        </section>
+     <!--Fim da Sessão Section-->
+     <!--Sessão contato-->
+     <section class="contact section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Contato</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!--Inicio do contact-info-item-->
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <h4>Ligue aqui</h4>
+            <p>(22) 99759-9571</p>
+          </div>
+          <!--Fim do contact-info-item-->
+          <!--Inicio do contact-info-item-->
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-map-marker"></i></div>
+            <h4>Localização</h4>
+            <p>Coqueiral de Itaparica</p>
+          </div>
+          <!--Fim do contact-info-item-->
+           <!--Inicio do contact-info-item-->
+           <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p>larissa_dantier@hotmail.com</p>
+          </div>
+          <!--Fim do contact-info-item-->
+        </div>
+
+        <!--Inicio das formas de contato-->
+        <div class="row">
+          <form class="contact-form padd-15">
+            <div class="row">
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name*">
+               </div>
+              </div>
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email*">
+               </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Assunto*">
+               </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                <textarea class="form-control" placeholder="Sua Mensagem..."></textarea>
+               </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 padd-15">
+                <button type="submit" class="btn">Enviar mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--Fim das formas de contato-->
+
+      </div>
+ </section>
+     <!--Fim Sessão contato-->
+    <!--Fim da Sessão About-->
   </div>
-  <!--Fim da main conteúdo-->
+    <!--Fim do Main Content-->
+  </div>
+  <!--Fim da main Container-->
+
+  <!--Arquivo JS-->
+  <script src="js/script.js"></script>
 </body>
 </html>
 
