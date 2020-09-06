@@ -1,4 +1,4 @@
-# C.V
+# 📄 C.V
 
 Site que apresenta o currículo (C.V).
 
