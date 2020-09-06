@@ -18,9 +18,7 @@ Site que apresenta o currículo (C.V).
 
 ◼ [Link do projeto:](https://www.youtube.com/watch?v=ONqgNVWJ-Dw)
 
-<p>
-  <img src="https://ibb.co/6JJw89g" width="600" title="wireframe-bikcraft"></a>
-</p>
+<a align= "center" href="https://ibb.co/6JJw89g"><img src="https://i.ibb.co/rff0384/The-Web-Shala.png" alt="The-Web-Shala" border="0" /></a>
 
 ## 📋 Considerações Finais
 
