@@ -4,7 +4,7 @@ Site que apresenta o currículo (C.V).
 
 <strong>C.V:</strong> Site para apresentar minhas informações e mostrar a minha trajetória de estudos.
 
-<a align="center" href="https://ibb.co/6Bv4Wz9"><img src="https://i.ibb.co/4dsjVzv/Personal-Portf-lio.png" alt="Personal-Portf-lio" border="0" /></a>
+<a align="center" href="https://ibb.co/JmPxjtL"><img src="https://i.ibb.co/DznGfWX/Meu-C-V.png" alt="Meu-C-V" border="0" /></a>
 
 📌 Projeto inspirado pelo [The WebShala](https://www.youtube.com/channel/UC94lpQZvaokkIqU-TvtsGXQ). <strong>Conceitos desenvolvidos durante o projeto:</strong>
 
